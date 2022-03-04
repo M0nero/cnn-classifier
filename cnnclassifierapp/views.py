@@ -4,7 +4,6 @@ from .classifier import Classifier
 from .forms import ImageForm
 from PIL import Image
 from .models import ImgClass
-from django.shortcuts import redirect
 
 
 def main(request):
